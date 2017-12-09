@@ -1,0 +1,73 @@
+body {
+	max-width: 800px;
+	margin: 0 auto;
+	font-family: serif;
+}
+
+header {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+header > * {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#contacts {
+	flex: 1;
+}
+
+#title {
+	flex: 1;
+	align-self: center;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 0;
+}
+
+#title p {
+	margin-top: 40px;
+	text-align: justify;
+}
+
+#img {
+	flex: 1;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+}
+
+h2 {
+	margin-left: 10px;
+}
+
+#projects {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#projects article {
+	flex: 1;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#projects ul {
+	padding-left: 0;
+	margin: 0;
+}
+
+#projects li {
+	margin-top: 1em;
+	margin-bottom: 1em;
+	list-style: none;
+}
+
+#education {
+	margin-left: 10px;
+}
