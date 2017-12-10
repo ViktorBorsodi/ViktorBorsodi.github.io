@@ -1,0 +1,29 @@
+body {
+  font-family: helvetica, sans-serif;
+  width: 350px;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+label {
+  font-weight: bold;  
+}
+div {
+  padding-bottom: 20px;
+}
+input[type="text"] {
+  padding: 5px;
+  padding-right: 12px;
+}
+p {
+  background: #FFC125;
+  color: #5E2612;
+  padding: 10px;
+  visibility: hidden;
+}
+button {
+  font-size: 1.1rem;
+  padding: 5px;
+}
+button:hover {
+  cursor: pointer;
+}
