@@ -6,9 +6,6 @@ var ctx = canvas.getContext('2d');
 var width = canvas.width = window.innerWidth;
 var height = canvas.height = window.innerHeight;
 
-var para = document.querySelector('p');
-var count = 0;
-
 // function to generate random number
 
 function random(min,max) {
@@ -121,7 +118,6 @@ EvilCircle.prototype.collisionDetect = function() {
 
       if (distance < this.size + balls[j].size) {
         balls[j].exists = false;
-        count -= 1;
       }
     }
   }
@@ -163,7 +159,6 @@ function loop() {
       random(10,20)
     );
     balls.push(ball);
-    count += 1;
   }
 
   for (var i = 0; i < balls.length; i++) {
@@ -177,9 +172,7 @@ function loop() {
   evil.draw();
   evil.checkBounds();
   evil.collisionDetect();
-
-  para.textContent = 'Ball count: ' + count;
-
+  
   requestAnimationFrame(loop);
 };
 
