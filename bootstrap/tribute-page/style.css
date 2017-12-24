@@ -1,0 +1,13 @@
+body {
+  margin-top: 60px
+}
+.jumbotron p {
+  text-align: justify;
+  font-size: 16px
+}
+.jumbotron blockquote, .jumbotron blockquote p {
+  font-size: 21px
+}
+.footer {
+  margin-bottom: 20px
+}
