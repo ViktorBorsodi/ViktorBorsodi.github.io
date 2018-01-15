@@ -1,0 +1,108 @@
+body {
+	background-color: grey;
+}
+.navbar-default {
+	background-color: purple;
+	border: none;
+}
+.navbar .container {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a {
+	color: white;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:active, .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:active {
+	background-color: white;
+}
+.navbar-brand {
+	height: 70px;
+}
+.navbar-nav>li>a, .navbar-brand {
+	line-height: 40px;
+}
+main {
+  margin-top: 140px;
+}
+.row {
+	margin-left: 0;
+	margin-right: 0;
+	padding-top: 30px;
+}
+.grey-section {
+	margin-top: -70px;
+	padding-top: 30px;
+	color: white;
+	padding-bottom: 20px;
+}
+.grey-section, .grey-section .jumbotron {
+	background-color: darkgrey;
+}
+.jumbotron h1 {
+	font-size: 30px;
+}
+.jumbotron hr {
+  border-top: 3px solid white;
+  border-bottom: 3px solid white;
+}
+img	{
+	max-height: 215px;
+}
+main section .main-hr {
+	width: 50%;
+	border-top: 3px solid gray;
+  	border-bottom: 3px solid gray;
+}
+.white-section, .white-section .jumbotron {
+	background-color: white;
+}
+h2 {
+	margin-top: 0;
+	padding-top: 50px;
+	padding-bottom: 10px;
+}
+.thumbnail {
+	border: none;
+}
+.container-fluid {
+	padding-left: 0;
+	padding-right: 0;
+}
+.grey-footer {
+	margin-top: -30px;
+	padding-bottom: 70px;
+	padding-top: 40px;
+	color: white;
+	background-color: darkgrey;
+}
+footer section div {
+
+}
+.container-fluid .purple-footer {
+	background-color: purple;
+	font-size: 
+}
+.purple-footer h4 {
+	margin-bottom: 0;
+	margin-top: 0;
+	line-height: 4;
+	color: white;
+}
+h2, h3 {
+	font-weight: 700;
+}
+h2 {
+	color: grey;
+}
+h3 {
+	margin-bottom: 30px;
+}
+.fa-linkedin {
+	margin-right: 20px;
+}
+h3 a {
+	color: white;
+}
+a:hover, h3 a:active {
+	color: purple;
+}
