@@ -1,0 +1,38 @@
+main {
+	width: 500px;
+	margin: 0 auto;
+	margin-top: 150px;
+	background-color: white;
+	padding: 40px;
+	position: relative;
+	border-radius: 5px;
+}
+blockquote {
+	border: none;
+	padding-top: 0;
+}
+blockquote p {
+	font-size: 24px;
+}
+blockquote footer {
+	text-align: right;
+	font-size: 17.5px;
+	color: #333;
+}
+.btn, .btn a, .btn:hover, .btn:active, .btn:focus {
+	color: white;
+}
+.link-btn {
+	width: 39px;
+}
+#quote-button {
+	position: absolute;
+	right: 40px;
+}
+footer {
+	color: white;
+	margin-top: 15px;
+}
+.bg-color {
+	background-color: #333;
+}
