@@ -1,0 +1,53 @@
+body {
+	background-color: rgb(16,46,70);
+	font-family: Arial Narrow, Helvetica, Arial, sans-serif;
+	font-weight: lighter;
+}
+p {
+	text-align: center;
+}
+#random, p {
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+}
+#random {
+	display: block;
+	margin: 0 auto;
+	margin-top: 20%;
+	margin-bottom: 30px;
+	width: 250px;
+}
+p {
+	margin-top: 30px;
+}
+input {
+	border: 5px solid darkorange;
+	border-radius: 30px;
+	line-height: 2;
+	background-color: rgb(16,46,70);
+	color: white;
+	font-size: 16px;
+	padding-left: 20px;
+	padding-right: 20px;
+	outline: none;
+	display: block;
+	margin: 0 auto;
+}
+.linkClass h3, .linkClass p {
+	color: black;
+	text-align: left;
+}
+.linkClass {
+	display: block;
+	background-color: whitesmoke;
+	padding: 10px 30px;
+	margin: 10px 10%;
+	text-decoration: none;
+}
+.linkClass p {
+	font-size: 16px;
+}
+.linkClass:hover {
+	border-left: 5px solid darkorange;
+}
