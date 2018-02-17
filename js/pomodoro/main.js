@@ -50,7 +50,7 @@ function pomodoro() {
 		pomodoro();
 	});
 	timer.addEventListener('targetAchieved', function (e) {
-		var audio = new Audio('bell.wav');
+		var audio = new Audio('bell.mp3');
 		audio.play();
 		var leisure = new Timer();
 		$('h2').text('Break');
