@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Pomodoro clock</title>
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1>FreeCodeCamp</h1>
+	<section id="container">
+		<div class="left">
+			<p>BREAK LENGTH</p>
+			<p class="length"><span class="changer" id="decr-break">-</span><span id="break-length">5</span><span class="changer" id="incr-break">+</span></p>
+		</div>
+		<div class="right">
+			<p>SESSION LENGTH</p>
+			<p class="length"><span id="decr-session" class="changer">-</span><span id="session-length">25</span><span id="incr-session" class="changer">+</span></p>
+		</div>
+	</section>
+	<section class="countdown">
+		<h2>Session</h2>
+		<p id="display">Start!</p>
+	</section>
+	<script
+	src="https://code.jquery.com/jquery-3.3.1.min.js"
+	integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+	crossorigin="anonymous"></script>
+	<script type="text/javascript" src="main2.js"></script>
+</body>
+</html>
