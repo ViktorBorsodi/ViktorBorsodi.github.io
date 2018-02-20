@@ -1,0 +1,68 @@
+body {
+	font-family: sans-serif;
+}
+h1 {
+	text-align: center;
+	margin-top: 10%;
+	margin-bottom: 40px;
+}
+table {
+	margin: auto;
+	background-color: seagreen;
+	border: 30px solid sandybrown;
+	border-radius: 10px;
+	box-shadow: 10px 10px 40px rgba(0,0,0,0.7);
+	display: none;
+	color: white;
+}
+td {
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	font-size: 4em;
+}
+td:nth-of-type(2) {
+	border-left: 2px solid white;
+	border-right: 2px solid white;
+}
+tr:nth-of-type(2) td {
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+}
+section {
+	width: 304px;
+	height: 304px;
+	border: 30px solid sandybrown;
+	border-radius: 10px;
+	box-shadow: 10px 10px 40px rgba(0,0,0,0.7);
+	background-color: seagreen;
+	color: white;
+	margin: auto;
+}
+p {
+	text-align: center;
+	font-size: 2em;
+	margin-top: 50px;
+}
+div {
+	font-size: 3em;
+	display: inline-block;
+	width: 20%
+}
+div:nth-of-type(1) {
+	margin-left: 23%;
+	margin-right: 10%;
+}
+div:nth-of-type(2) {
+	margin-left: 10%;
+	margin-right: 15%;
+}
+div:hover {
+	cursor: pointer;
+}
+#compwin, #playerwin, #draw {
+	display: none;
+}
+#compwin p, #playerwin p, #draw p {
+	margin-top: 80px;
+}
