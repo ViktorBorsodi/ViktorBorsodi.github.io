@@ -1,0 +1,149 @@
+body {
+	background-color: moccasin;
+}
+.simon-button {
+ 	width: 180px;
+ 	height: 180px;
+ 	display: inline-block;
+ 	margin: 0px;
+ 	border: 20px solid #222;
+}
+#green {
+	background-color: rgb(0,127,0);
+	border-top-left-radius: 100%;
+}
+#red {
+	background-color: rgb(127,0,0);
+	border-top-right-radius: 100%;
+}
+#yellow {
+	background-color: rgb(127,127,0);
+	border-bottom-left-radius: 100%;
+}
+#blue {
+	background-color: rgb(0,0,80);
+	border-bottom-right-radius: 100%;
+}
+#top-cont {
+	margin-top: 10%;
+	margin-bottom: -4px;
+}
+.inner-cont {
+	text-align: center;
+	border-collapse: collapse;
+}
+#green, #red {
+	border-bottom: 10px solid #222;
+}
+#yellow, #blue {
+	border-top: 10px solid #222; 
+}
+#green, #yellow {
+	border-right: 10px solid #222;
+}
+#red, #blue {
+	border-left: 10px solid #222;
+}
+h1 {
+	font-size: 3.8em;
+	margin-bottom: 10px;
+	position: relative;
+	width: 175px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+}
+.cont > * {
+	float: left;
+	margin-left: 22px;
+	text-align: center;
+}
+button {
+	width: 25px;
+	height: 25px;
+	border-radius: 100%;
+	border: 3px solid #333;
+	margin-top: 4px;
+}
+button:active, button:focus {
+	outline: none;
+}
+#start {
+	background-color: red;
+}
+#strict {
+	background-color: yellow;
+}
+span {
+	font-size: 15px;
+	position: absolute;
+	top: 10px;
+	right: 2px;
+}
+#count {
+	margin-top: 0;
+	padding: 5px 20px;
+	background-color: #333;
+	color: grey;
+	border-radius: 15%;
+	font-size: 1.2em;
+	margin-bottom: 0;
+	width: 14px;
+	text-align: center;
+}
+#count + p {
+	margin-top: 9px;
+}
+.cont p {
+	font-size: 0.8em;
+}
+#switch {
+	clear: both;
+	padding-left: 55px;
+}
+#switch > * {
+	float: left;
+	text-align: center;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+#switch > div {
+	width: 40px;
+	height: 16px;
+	background-color: #222;
+}
+#switch > div > div {
+	width: 15px;
+	height: 12px;
+	background-color: deepskyblue;
+	border-radius: 20%;
+	border: 2px solid #444;
+}
+section {
+	background-color: white;
+	border-radius: 100%;
+	border: 10px solid #333;
+	width: 225px;
+	height: 225px;
+	margin: 0 auto;
+	position: relative;
+	bottom: 336px;
+
+}
+#light {
+	position: absolute;
+	width: 5px;
+	height: 5px;
+	border: 2px solid #444;
+	border-radius: 100%;
+	background-color: #444;
+	right: 40px;
+	top: 100px;
+}
+section {
+	position: relative;
+}
+#switch > div:hover, #start:hover, #strict:hover, .simon-button:hover {
+	cursor: pointer;
+}
