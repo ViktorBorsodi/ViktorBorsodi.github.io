@@ -1,0 +1,146 @@
+body {
+	font-family: helvetica, arial, sans-serif;
+	min-width: 960px;
+}
+#top-right {
+	font-size: 13px;
+}
+#top-right a {
+	text-decoration: none;
+	color: #444;
+}
+#top-right a button {
+	color: white;
+	background-color: royalblue;
+	border: none;
+	padding: 10px 15px;
+	font-weight: bold;
+	border-radius: 5%;
+}
+#top-right li {
+	float: left;
+	margin: 0 10px;
+	list-style: none;
+}
+.text {
+	line-height: 36px;
+}
+#top-right .text a:hover {
+	text-decoration: underline;
+}
+#top-right a button:hover {
+	box-shadow: 0px 0.5px 0px deepskyblue;
+}
+#top-right a button:active {
+	background-color: mediumblue;
+}
+#top-right {
+	position: absolute;
+	right: 15px;
+	margin-top: 5px;
+}
+#google {
+	width: 275px;
+	display: block;
+	margin: 0 auto;
+	padding-top: 190px;
+	clear: both;
+}
+input {
+	width: 540px;
+	line-height: 2.5;
+	padding: 1px 15px;
+	font-size: 16px;
+	outline: none;
+	border: 1px solid #DDD;
+	display: block;
+	margin: 0 auto;
+	box-shadow: 0px 1px 0px #ccc;
+	background: url('voicesearch.png') 97% no-repeat;
+	background-size: 25px;
+}
+form {
+	margin: 25px auto;
+	width: 600px;
+}
+#buttons {
+	text-align: center;
+	margin-top: 30px;
+}
+div button {
+	color: #777;
+	font-weight: bold;
+	padding: 10px 20px;
+	background-color: #eee;
+	border: none;
+}
+div button:nth-of-type(1) {
+	margin-right: 5px;
+}
+div button:hover {
+	outline: 1px solid #bbb;
+}
+div button:active {
+	outline: 1px solid royalblue;
+}
+#lang {
+	font-size: 13px;
+	text-align: center;
+	margin-top: 30px;
+}
+#bottom-left a, #bottom-right a {
+	text-decoration: none;
+	color: #666;
+	font-size: 13px;
+	line-height: 3.25;
+}
+#bottom-left a:hover, #bottom-right a:hover {
+	text-decoration: underline;
+}
+footer {
+	background-color: #eee;
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	left: 0px;
+}
+#bottom-left, #bottom-right {
+	display: inline-block;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#bottom-left li, #bottom-right li {
+	list-style: none;
+	display: inline-block;
+}
+#bottom-right {
+	position: absolute;
+	right: 30px;
+}
+#bottom-left {
+	padding-left: 30px;
+}
+#bottom-left li {
+	margin-right: 20px;
+}
+#bottom-right li {
+	margin-left: 20px;
+}
+#country {
+	color: #777;
+	font-size: 15px;
+	background-color: #eee;
+	line-height: 2.82;
+	font-weight: lighter;
+	position: absolute;
+	bottom: 41.6px;
+	left: 0;
+	width: 100%;
+	margin: 0;
+	border-bottom: 1px solid #ddd;
+	border-top: 1px solid #ddd;
+}
+#country p {
+	padding-left: 30px;
+	margin: 0;
+}
