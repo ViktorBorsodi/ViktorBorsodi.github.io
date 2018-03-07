@@ -5,6 +5,7 @@ $(".normal").on("click", function() {
 	if (result.text() != '') {
 		input.text('');
 		result.text('');
+		result.css('font-size','36px');
 	}
 	input.text(input.text() + char);
 	if (input.text().length > 38) {
@@ -23,6 +24,10 @@ $(".operator").on("click", function() {
 	if (result.text() != '') {
 		input.text(result.text());
 		result.text('');
+	}
+	if (result.text() != 'Max digits reached') {
+		result.text('');
+		result.css('font-size','36px');
 	}
 	var char = $(this).text();
 	input.text(input.text() + char);
