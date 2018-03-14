@@ -71,3 +71,13 @@ h2 {
 #education {
 	margin-left: 10px;
 }
+#education p {
+	font-size: 20px;
+	margin: 20px 0 16px;
+}
+#education li {
+	margin-bottom: 8px;
+}
+body {
+	padding-bottom: 32px;
+}
