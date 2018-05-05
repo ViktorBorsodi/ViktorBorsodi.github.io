@@ -23,7 +23,6 @@ header {
 
 h1 {
 	text-align: center;
-	margin-top: 0;
 }
 
 #title p {
@@ -65,9 +64,8 @@ h1 {
 	list-style: none;
 }
 
-#education p {
-	font-size: 20px;
-	margin: 20px 0 16px;
+#education h3 {
+	font-weight: 400;
 }
 #education li {
 	margin-bottom: 8px;
@@ -80,5 +78,3 @@ h1 {
 @media only screen and (max-width: 334px) {
     #title {
       	margin-left: 0 } }
-
-
