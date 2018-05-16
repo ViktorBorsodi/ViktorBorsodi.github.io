@@ -67,5 +67,20 @@ html {
 .card article p {
   padding: 1em;
   color: white;
-  line-height: 1.4;
+  line-height: 22.5px;
+  font-size: 1.5em;
+}
+
+.card a:link {
+  color: skyblue;
+}
+.card a:visited {
+  color: deepskyblue;
+}
+.card a:hover {
+  background-color: white;
+  color: blue;
+}
+.card a:active {
+  color: red;
 }
