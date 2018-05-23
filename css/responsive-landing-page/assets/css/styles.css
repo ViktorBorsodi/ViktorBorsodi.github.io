@@ -1,0 +1,267 @@
+body {
+	font-family: 'Open Sans';
+	margin: 0;
+}
+nav > a {
+	font-family: Quicksand;
+	font-size: 1.6rem;
+}
+nav {
+	display: flex;
+	justify-content: space-between;
+	padding: 40px 80px;
+	align-items: center;
+}
+a {
+	text-decoration: none;
+}
+nav ul {
+	list-style: none;
+}
+nav li {
+	display: inline-block;
+	margin: 0 10px;
+}
+#title {
+	text-align: center;
+	margin-top: 10%;
+	animation: slideup .5s ease-out;
+}
+h1 {
+	font-size: 3.5rem;
+	margin-bottom: 20px;
+}
+h2 {
+	font-size: 1.8rem;
+	margin-top: 0;
+	margin-bottom: 40px;
+	font-weight: normal;
+}
+#title a {
+	font-size: 1.1rem;
+	font-weight: 800;
+	background-color: royalblue;
+	padding: 20px 40px;
+	display: inline-block;
+	border-radius: 5px;
+}
+#title a:hover {
+	background-color: rgb(85,125,245);
+}
+#heading {
+	height: 100vh;
+	background-image: url('../img/main.jpg');
+	color: white;
+	background-position: center;
+	background-size: cover;
+}
+#heading a:link {
+	color: whitesmoke;
+	transition: .5s ease-out;
+}
+#heading a:visited {
+	color: antiquewhite;
+}
+#heading nav a:hover {
+	color: white;
+	text-shadow: 3px 3px 10px black;
+}
+
+@keyframes slideup {
+	0%{
+		margin-top: 20%;
+		opacity: 0;
+	}
+	100%{
+		margin-top: 10%;
+		opacity: 1;
+	}
+}
+
+@media all and (max-width: 700px) {
+	nav {
+		flex-direction: column;
+		padding: 20px 20px;
+	}
+	nav ul {
+		padding: 0;
+	}
+}
+
+h3, p, blockquote {
+	text-align: center;
+	color: #444;
+}
+h3 {
+	font-size: 2rem;
+	padding-top: 100px;
+}
+p {
+	max-width: 800px;
+	margin: 0 auto;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+hr {
+	max-width: 200px;
+	margin-top: 40px;
+	border: 1px solid royalblue;
+	background-color: royalblue;
+	margin-bottom: 100px;
+}
+.imgs {
+	display: flex;
+	width: 80%;
+	justify-content: space-between;
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+.sm-img {
+	flex: 0 1 29%;
+	height: 300px;
+}
+.lg-img {
+	flex: 0 1 68%;
+	height: 300px;
+}
+#img1 {
+	background-image: url('../img/mountain1.jpg');
+}
+#img2 {
+	background-image: url('../img/mountain2.jpg');
+}
+#img3 {
+	background-image: url('../img/mountain3.jpg');
+}
+#img4 {
+	background-image: url('../img/mountain4.jpg');
+}
+#img1, #img2, #img3, #img4 {
+	background-position: center;
+	background-size: cover;
+}
+
+@media all and (max-width: 1000px) {
+	.sm-img {
+		flex: 0 1 49%;
+	}
+	.lg-img {
+		flex: 0 1 49%;
+	}
+	#packages {
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+@media all and (max-width: 700px) {
+	.imgs {
+		flex-direction: column;
+	}
+	.sm-img, .lg-img {
+		margin-bottom: 40px;
+	}
+	.imgs {
+		margin-bottom: 0;
+	}
+}
+
+.package {
+	text-align: center;
+	flex: 1 1 30%;
+	max-width: 300px;
+	margin: 30px 70px;
+}
+i {
+	font-size: 3rem;
+	color: royalblue;
+}
+h4 {
+	font-size: 1.2rem;
+	color: #444;
+}
+#packages {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 100px;
+}
+.grey {
+	background-color: whitesmoke;
+	margin-top: 100px;
+}
+blockquote {
+	width: 70%;
+	max-width: 1000px;
+	margin: 30px auto;
+}
+button {
+	font-size: 1.1rem;
+	font-weight: 800;
+	background-color: royalblue;
+	padding: 20px 40px;
+	display: inline-block;
+	border-radius: 5px;
+	color: white;
+	border: none;
+	outline: none;
+	margin: 0 30px;
+	transition: .5s ease-out;
+	cursor: pointer;
+}
+button:hover {
+	background-color: rgb(85,125,245);
+}
+input {
+	font-size: 1.1rem;
+	padding: 21px 40px;
+	display: inline-block;
+	border-radius: 5px;
+	border: 1px solid black;
+	margin: 0 30px;
+	width: 400px;
+}
+input:focus {
+	border: 1px solid royalblue;
+	outline: none;
+}
+form {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 100px;
+}
+
+@media all and (max-width: 1100px) {
+	form {
+		flex-direction: column;
+		align-items: center;
+	}
+	input {
+		margin-bottom: 40px;
+		width: 80%;
+	}
+}
+
+footer {
+	background-color: teal;
+	padding-bottom: 20px;
+}
+footer p {
+	text-transform: uppercase;
+	color: lightgrey;
+	padding-top: 30px;
+}
+footer a {
+	color: darkgrey;
+}
+footer a:hover {
+	text-shadow: 3px 3px 10px black;
+}
+footer div {
+	display: flex;
+	justify-content: center;
+}
+footer i {
+	color: lightgrey;
+	font-size: 2rem;
+	margin: 20px 10px;
+}
