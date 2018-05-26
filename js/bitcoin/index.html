@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bitcoin Price</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>Bitcoin Current Price is: <span id="price"></span></h1>
+	<div>	
+		<label for="usd"><input type="radio" name="currency" id="usd">USD</label>
+		<label for="gbp"><input type="radio" name="currency" id='gbp'>GBP</label>
+		<label for="eur"><input type="radio" name="currency" id="eur" checked>EUR</label>
+		<label for="huf"><input type="radio" name="currency" id="huf">HUF</label>		
+	</div>
+	<button>Refresh Data</button>
+	<p>Powered by <a href="https://www.coindesk.com/price/">CoinDesk</a></p>
+	<script type="text/javascript" src="main.js"></script>
+</body>
