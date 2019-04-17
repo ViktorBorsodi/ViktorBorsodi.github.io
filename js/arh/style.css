@@ -1,0 +1,17 @@
+#img-container {
+	position: relative;
+}
+.img-fluid {
+	max-height: 500px;
+}
+#caption {
+	position: absolute;
+	font-size: 2rem;
+	color: white;
+	top: 0;
+	right: 15%;
+}
+button {
+	margin: 0 10px;
+	width: 100px;
+}
