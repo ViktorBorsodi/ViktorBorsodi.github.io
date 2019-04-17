@@ -1,0 +1,54 @@
+Content-Type: image/jpeg
+Content-Length: 30421
+X-Timestamp: 1503385018.176
+X-SendTimestamp: 1503385018.255
+X-TimeDiff: 79
+X-ARHProp-ecode=0
+X-ARHProp-imgysize=720
+X-ARHProp-imgxsize=1280
+X-ARHProp-imgwhitelevel=1.000
+X-ARHProp-imgwhitebalance=0.0,0.0,0.0
+X-ARHProp-imgstreamframeindex=89380
+X-ARHProp-imgsource=1
+X-ARHProp-imgshutter=1500.000
+X-ARHProp-imgscolor=3
+X-ARHProp-imgsaturation=0.000
+X-ARHProp-imgrgbmatrix=1.000,0.000,0.000,0.000,1.000,0.000,0.000,0.000,1.000
+X-ARHProp-imgmdxresult=58
+X-ARHProp-imgmdwin=140,8,760,184
+X-ARHProp-imgmdview=0,8,1280,712
+X-ARHProp-imgmdtrigresult=58,0
+X-ARHProp-imgmdtriglevel=30,30
+X-ARHProp-imgmdspeed=5
+X-ARHProp-imgmdsequence=437
+X-ARHProp-imgmdseqframe=1
+X-ARHProp-imgmdsensitivity=10
+X-ARHProp-imgmdresult=58
+X-ARHProp-imgmdreslevel=10
+X-ARHProp-imgmdoutimg=1
+X-ARHProp-imgmdmode=1
+X-ARHProp-imgllm=1
+X-ARHProp-imgjpegquality=75
+X-ARHProp-imgiframe=1
+X-ARHProp-imghdr=0
+X-ARHProp-imggraylevel=0.500
+X-ARHProp-imggamma=2.000
+X-ARHProp-imggain=8.000
+X-ARHProp-imgframetimems=1503385018176
+X-ARHProp-imgframemonotimems=2991608
+X-ARHProp-imgframeindex=89397
+X-ARHProp-imgfps=30.000
+X-ARHProp-imgcyuvadd=0.000,0.500
+X-ARHProp-imgcontrast=0.000
+X-ARHProp-imgcmatrix=0.299,0.587,0.114,-0.169,-0.331,0.500,0.500,-0.419,-0.081
+X-ARHProp-imgchannel=2
+X-ARHProp-imgcapysize=720
+X-ARHProp-imgcapxsize=1280
+X-ARHProp-imgbrightness=0.000
+X-ARHProp-imgblacklevel=0.000
+X-ARHProp-imgautowb=0
+X-ARHProp-imgformat=2
+X-ARHProp-fileext=.jpg
+X-ARHProp-mimetype=image/jpeg
+X-ARHProp-imgsize=30421
+
