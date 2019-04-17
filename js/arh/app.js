@@ -6,7 +6,7 @@ var videoId;
 var inputSpeed = document.querySelector('#speed');
 var playbackSpeed = 15;
 var playbackDisplay = document.querySelector('#playbackDisplay');
-var lastImg = 357;
+var lastImg = 49;
 var frameIndex = document.querySelector('#caption');
 var searchQuery = 'X-ARHProp-imgframeindex=';
 
