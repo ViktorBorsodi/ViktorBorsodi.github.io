@@ -11,11 +11,11 @@ header {
 }
 
 #contacts {
-	flex: 15%;
+	flex: 10%;
 }
 
 #title {
-	flex: 40%;
+	flex: 45%;
 	align-self: center;
 	margin-right: 20px;
 	margin-left: 20px;
