@@ -1,3 +1,4 @@
+fetch('https://vodafone-contacts-app-vb.herokuapp.com/',{mode: 'no-cors'});
 fetch('https://aqueous-dawn-66794.herokuapp.com/',{mode: 'no-cors'});
 fetch('https://serene-brook-41685.herokuapp.com/',{mode: 'no-cors'});
 fetch('https://warbler-server-vb.herokuapp.com/',{mode: 'no-cors'});
