@@ -6,7 +6,6 @@ body {
 .intro {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
-    margin-bottom: 20px;
 }
 
 .intro > * {
@@ -36,13 +35,17 @@ body {
 }
 
 .intro .photo {
-    width: 10rem;  
+    width: 9rem;  
 }
 
 .grid-wrapper {
     display: grid;
     grid-gap: 20px;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+
+.grid-wrapper .container {
+    text-align: center;
 }
 
 .grid-wrapper .box {
@@ -55,12 +58,42 @@ body {
 }
 
 .grid-wrapper .box:hover {
-    transform: rotate(-7deg) scale(1.2);
+    transform: scale(1.1);
     box-shadow: rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
 }
 
 .grid-wrapper .box > img {
     width: 100%;
+}
+
+.grid-wrapper .container .double-link {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.grid-wrapper .container button {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid #218838;
+    padding: .375rem .75rem;
+    font-size: .7rem;
+    line-height: 1.2;
+    border-radius: .25rem;
+    transition: .3s ease-out;
+    color: #fff;
+    background-color: #28a745;
+    box-shadow: rgba(0,0,0,0.8) 0px 2px 7px, inset rgba(0,0,0,0.15) 0px -5px 10px;
+    outline: none;
+}
+
+.grid-wrapper button:hover {
+    transform: scale(1.2);
+    box-shadow: rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    background-color: #218838;
+    border-color: #1e7e34;
 }
 
 @media screen and (max-width: 820px) {
@@ -69,6 +102,9 @@ body {
     }
     .intro {
         margin-bottom: 10px;
+    }
+    .grid-wrapper .container button {
+        font-size: 1.2rem;
     }
 }
 
@@ -82,4 +118,3 @@ body {
         grid-column: span 2;
     }
 }
-
